@@ -33,13 +33,13 @@ params:
     sizes: [400,600]
   hero:
     # Main hero title
-    title: Manage. Deploy.
+    title: Run your network with confidence
     # Hero subtitle (optional)
-    subtitle: Lorem ipsum sit dolor amet is dummy text used by the typography industry
+    subtitle: The Open Source network monitoring platform for infrastructure engineers.
     # Button text
     buttontext: Get started
     # Where the main hero button links to
-    buttonlink: "#"
+    buttonlink: "https://docs.bluebird.community/horizon/34-snapshot/deployment/core/getting-started"
     # Hero image (from static/images/___)
     image: illustrations/worker.svg
     # Footer logos (from static/images/logos/clients/*.svg)
@@ -57,57 +57,19 @@ params:
       url: https://bulma.io/
   # Customizable navbar. For a dropdown, add a "sublinks" list.
   navbar:
-  - title: Features
+  - title: Why Bluebird?
     url: /
-  - title: Pricing
+  - title: Docs
+    url: https://docs.bluebird.community/start-page/1.0.0/index.html
+  - title: Help
     url: /
-  - title: Dropdown
-    sublinks:
-    - title: Dropdown item
-      url: /
-    - title: Dropdown item
-      url: /
-    - title: Dropdown item
-      url: /
-  - title: Log in
+  - title: Blog
     url: /
-  - title: Sign up
+  - title: Contributors
     url: /
+  - title: Source Code
+    url: https://github.com/bluebird-community/opennms
     button: true
-  sidebar:
-    # Logo (from static/images/logos/___.svg)
-    logo: fresh-square
-    sections:
-    - title: User
-      icon: user
-      links:
-      - text: Profile
-        url: /
-      - text: Account
-        url: /
-      - text: Settings
-        url: /
-    - title: Messages
-      icon: envelope
-      links:
-      - text: Inbox
-        url: /
-      - text: Compose
-        url: /
-    - title: Images
-      icon: image
-      links:
-      - text: Library
-        url: /
-      - text: Upload
-        url: /
-    - title: Settings
-      icon: cog
-      links:
-      - text: User settings
-        url: /
-      - text: App settings
-        url: /
   section1:
     title: Great power comes
     subtitle: with great responsibility
